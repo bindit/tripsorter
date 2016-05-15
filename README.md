@@ -27,3 +27,13 @@ In order to execute PHPUnit tests run:
 ```
 ./vendor/phpunit/phpunit/phpunit -c phpunit.xml
 ```
+
+DATA STORAGE
+------------
+All data are stored using "in memory" storage located in
+
+```
+src/App/Data/Persistence/InMemory.php
+```
+
+Edit this file in order to add/delete items.
